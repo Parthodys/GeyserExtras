@@ -11,7 +11,7 @@ public class CommandExecutor {
         ids = new HashMap<>();
         add(List.of("ge", "geyserextras"), new GeyserExtrasCommand());
         add(List.of("emotechat", "muteemotechat", "unmuteemotechat"), new EmoteChatCommand());
-        add(List.of("l", "players", "listplayers", "tab", "tablist"), new TabListCommand());
+        add(List.of("players"), new TabListCommand());
     }
 
 
